@@ -1,6 +1,7 @@
 @import "_reset.less";
 @import "_mixins.less";
 @import "_grid.less";
+@import "icons.css";
 
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|Roboto+Condensed:400,300,700|Roboto+Slab:400,100,300,700");
 
@@ -39,21 +40,290 @@ font: font-style* font-variant* font-weight font-size/line-height* font-family;
 .header{
 	background-color: @darkblue;
 	height: 450px;
+	position: relative;
+	overflow: hidden;
 	hgroup{
 		color: white;
 		text-transform: uppercase;
 		text-align: center;
-		padding-top: 180px;
-		h1{
-			font: 100 65px/60px @roboto-slab;
-			letter-spacing: 5px;
+		padding-top: 130px;
+		.title_border{
+			border: solid 1px white;
+			padding: 40px;
+			margin: auto ;
+			width: 650px;
+			background: @darkblue;
+			position: relative;
+			z-index: 14;
+			.icon-shine{
+				position: absolute;
+				color: white;
+				font-size: 25px;
+				background: @darkblue;
+				display: block;
+				padding: 5px;
+				border: solid 3px #1f292e;
+				&.tl{
+					left: -17px;
+					top: -20px;
+				}
+				&.tr{
+					right: -17px;
+					top: -20px;
+				}
+				&.bl{
+					left: -16px;
+					bottom: -21px;
+				}
+				&.br{
+					right: -18px;
+					bottom: -21px;
+				}
+			}
+			h1{
+				font: 100 65px/60px @roboto-slab;
+				letter-spacing: 5px;
+			}
+			h2{
+				width: 530px;
+				background: url('../images/motif_ribbon.png');
+				color: #FFF;
+				background-size: 1%;
+				font: 200 18px'Roboto', sans-serif;
+				letter-spacing: 2px;
+				border: none;
+				margin: 30px auto 0 auto;
+				padding: 10px;
+				:before{
+					content: '';	
+				}
+			}
 		}
-		h2{
-			font: 200 20px/60px @roboto;
-			letter-spacing: 2px;
-			border: none;
-			margin: 0px;
+	}
+
+	#size_big{
+		position: absolute;
+		font-size: 55px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 3;
+	}
+	#size_medium{
+		position: absolute;
+		font-size: 40px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 2;
+		span{
+			color: darken(@greyblue, 8%);
 		}
+	}
+	#size_little{
+		position: absolute;
+		font-size: 25px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1;
+		span{
+			color: darken(@greyblue, 12%);
+		}
+	}
+	span{
+		color : @greyblue;
+		position: absolute;
+		&.icon-whales{
+			left: 430px;
+			top: 400px;
+			&.whales_02{
+				left:auto;
+				right: 560px;
+				top: 30px;
+			}
+		}
+		&.icon-twitter{
+			left: 350px;
+			top: 380px;
+			&.twitter_02{
+				left: auto;
+				top: 80px;
+				right: 510px;
+			}
+		}
+		&.icon-tags{
+			left: 300px;
+			top: 320px;
+			&.tags_02{
+				left:auto;
+				right: 100px;
+				top: 170px;
+			}
+			&.tags_03{
+				left: 620px;
+				top: 90px;
+			}
+		}
+		&.icon-star{
+			left: 350px;
+			top: 40px;
+			&.star_02{
+				left:auto;
+				right: 230px;
+				top: 380px;
+			}
+		}
+		&.icon-snowflake{
+			left: 210px;
+			top: 250px;
+			&.snowflake_02{
+				left:auto;
+				right: 270px;
+				top: 20px;
+			}
+		}
+		&.icon-scala{
+			left: 320px;
+			top: 200px;
+			&.scala_02{
+				left: auto;
+				top: 350px;
+				right: 480px;
+			}
+		}
+		&.icon-r2d2{
+			right: 150px;
+			top: 70px;
+			&.r2d2_02{
+				left:590px;
+				top: 360px;
+				right: auto;
+			}
+		}
+		&.icon-play{
+			left: 230px;
+			top: 360px;
+			&.play_02{
+				left:auto;
+				right: 30px;
+				top: 30px;
+			}
+		}
+		&.icon-arduino{
+			right: 400px;
+			top: 50px;
+			&.arduino_02{
+				right: auto;
+				left: 490px;				
+				top: 350px;
+			}
+		}
+		&.icon-beer{
+			left: 190px;
+			top: 160px;
+			&.beer_02{
+				left:auto;
+				right: 100px;
+				top: 380px;
+			}
+		}
+		&.icon-cloud{
+			left: 175px;
+			top: 20px;
+			&.cloud_02{
+				left:auto;
+				right: 650px;
+				top: 395px;
+			}
+
+		}
+		&.icon-cock{
+			right: 65px;
+			top: 255px;
+			&.cock_02{
+				right: auto;
+				left: 540px;
+				top: 20px;
+			}
+		}
+		&.icon-croissant{
+			left: 50px;
+			top: 270px;
+			&.croissant_02{
+				left:auto;
+				right: 320px;
+				top: 220px;
+			}
+			&.croissant_03{
+				left:auto;
+				right: 620px;
+				top: 360px;
+			}
+		}
+		&.icon-fastfood{
+			left: 35px;
+			top: 40px;
+		}
+		&.icon-hand{
+			left: 140px;
+			top: 100px;
+			&.hand_02{
+				left: auto;
+				top: 390px;
+				right: 550px;
+			}
+		}
+		&.icon-jewels{
+			left: 125px;
+			top: 305px;
+			&.jewels_02{
+				left:auto;
+				right: 180px;
+				top: 270px;
+			}
+		}
+		&.icon-lego{
+			right: 300px;
+			top: 290px;
+			&.lego_02{
+				left:auto;
+				right: 680px;
+				top: 40px;
+			}
+		}
+		&.icon-nyancat{
+			left: 10px;
+			top: 380px;
+			&.nyancat_02{
+				left:auto;
+				right: 250px;
+				top: 110px;
+			}
+		}
+		&.icon-localisation{
+			left: 270px;
+			top: 110px;
+		}
+		&.icon-anchor{
+			left: 60px;
+			top: 160px;
+			&.anchor_02{
+				left:auto;
+				right: 360px;
+				top: 370px;
+			}
+		}
+		&.icon-zengularity{
+			right: 210px;
+			top: 190px;
+			&.zengularity_02{
+				left:430px;
+				top: 70px;
+				right: auto;
+			}
+		}
+
 	}	
 }
 
@@ -88,9 +358,9 @@ h2{
 		border-top: solid 1px black;
 		border-bottom: solid 1px black;	
 	}
-	.icon-x{
-		display:inline-block;
+	.icon-cross{
 		margin: 0px 30px;
+		font-size: 15px;
 	}
 }
 h3{
@@ -254,6 +524,14 @@ h3{
 		.project_description .article h1{
 			color: @brown;
 		}
+	}
+	.icon-whales{
+		color: @lightgrey;
+		position: absolute;
+		top: 1425px;
+		left: 50%;
+		font-size: 25px;
+		margin-left: -20px;
 	}
 }
 
