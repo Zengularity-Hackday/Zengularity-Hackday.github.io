@@ -15,6 +15,7 @@
 @grey: #a0a9ae;
 @red: #fc7061;
 @brown: #8f8474;
+@white: #fff;
 
 @roboto: 'Roboto', sans-serif;
 @roboto-condensed: 'Roboto Condensed', sans-serif;
@@ -83,6 +84,21 @@ font: font-style* font-variant* font-weight font-size/line-height* font-family;
 			h1{
 				font: 100 65px/60px @roboto-slab;
 				letter-spacing: 5px;
+
+				&::before,
+				&::after, {
+					font-family: 'hackday';
+					font-size: 28px;
+					content: "\e602";
+					margin-right: 20px;
+				}
+
+				&::after {
+					display: inline-block;
+					margin-left: 20px;
+					margin-right: 0;
+					.scale(-1, 1);
+				}
 			}
 			h2{
 				width: 530px;
@@ -385,153 +401,161 @@ h3{
 
 /***************  PROJECT ******************/
 
-.project{
-	margin-bottom: 60px;
-	padding-bottom: 60px;
-	border-bottom: solid 1px @lightgrey;
-	.project_description{
-		.row(12);
-		margin-bottom: 30px;
-		.photo{
-			.column(6,12);
-			img{
-				max-width: 100%;
-			}
-			.links{
-				width: 100%;
-				background-color: @red;
-				color: white;
-				padding: 15px;
-				margin-top: -3px;
-				a{
-					.nolinkstyle;
-					font: 200 18px @roboto-slab ;
-					opacity: 0.8;
-					.transition(all 0.15s ease);
-					&:hover{
-						opacity: 1;
+.list-project {
+	.project{
+		margin-bottom: 60px;
+		padding-bottom: 60px;
+		border-bottom: solid 1px @lightgrey;
+		.project_description{
+			.row(12);
+			margin-bottom: 30px;
+			.photo{
+				.column(6,12);
+				img{
+					max-width: 100%;
+				}
+				.links{
+					width: 100%;
+					background-color: @red;
+					color: white;
+					padding: 15px;
+					margin-top: -3px;
+					a{
+						.nolinkstyle;
+						font: 200 18px @roboto-slab ;
+						opacity: 0.8;
+						.transition(all 0.15s ease);
+						&:hover{
+							opacity: 1;
+						}
 					}
 				}
 			}
-		}
-		.article{
-			.column(6,12);	
-			h1{
-				color: @red;
-				margin-bottom: 32px;
-				font: 200 45px/50px @roboto;
-			}
-			h2.date{
-				margin: 0px 0px 25px 0px; 
-				color: @darkblue;
-				font: 200 20px/30px @roboto-condensed;
-				letter-spacing: 1px;
-				border: none;
-				text-align: left;
-				text-transform: none;
-				span{
-					padding: 0px 10px;
-					background-color: @lightgrey;
+			.article{
+				.column(6,12);
+				h1{
+					color: @red;
+					margin-bottom: 32px;
+					font: 200 45px/50px @roboto;
 				}
-			}
-			p{
-				color: @darkblue;
-				font: 300 14px/20px @roboto-slab;
-				text-align: justify;
-			}
-		}
-	}
-	.hackers{
-		text-align: center;
-		h3{
-			background: @lightgrey;
-			border-top: solid 14px white;
-			border-bottom: solid 15px white;
-			span{
-				color: @greyblue;
-				background: white;
-			}
-		}
-		.profil{
-			li{
-				display: inline-block;
-				margin: 15px 15px 0px 15px;
-				position: relative;
-				.border-radius(50%);
-				border: solid 3px white;
-				.box-shadow(0px 0px 0px 5px @lightgrey);	
-				background: black;
-				.transition(all 0.15s ease);
-				img{
-					height: 110px;
-					width: 110px;
-					.border-radius(50%);
-					display: block;
-					.transition(all 0.15s ease);
+				h2.date{
+					margin: 0px 0px 25px 0px; 
+					color: @darkblue;
+					font: 200 20px/30px @roboto-condensed;
+					letter-spacing: 1px;
+					border: none;
+					text-align: left;
+					text-transform: none;
+					span{
+						padding: 0px 10px;
+						background-color: @lightgrey;
+					}
 				}
 				p{
-					opacity: 0;
-					display: block;
-					position: absolute;
-					width: 100%;
-					text-align: center;
-					top: 50%;
-					font: 300 16px/20px @roboto-slab;
-					margin-top: -10px;
-					color: #FFF;
+					color: @darkblue;
+					font: 300 14px/20px @roboto-slab;
+					text-align: justify;
+				}
+			}
+		}
+		.hackers{
+			text-align: center;
+			h3{
+				background: @lightgrey;
+				border-top: solid 14px white;
+				border-bottom: solid 15px white;
+				span{
+					color: @greyblue;
+					background: white;
+				}
+			}
+			.profil{
+				li{
+					display: inline-block;
+					margin: 15px 15px 0px 15px;
+					position: relative;
+					.border-radius(50%);
+					border: solid 3px white;
+					.box-shadow(0px 0px 0px 5px @lightgrey);	
+					background: black;
 					.transition(all 0.15s ease);
-				}
-				a{
-					.hovertip();
-				}
-				&:hover{
-					.box-shadow(0px 0px 0px 5px @darkblue);
 					img{
-						opacity: 0.3;
+						height: 110px;
+						width: 110px;
+						.border-radius(50%);
+						display: block;
+						.transition(all 0.15s ease);
 					}
 					p{
-						opacity: 1;
+						opacity: 0;
+						display: block;
+						position: absolute;
+						width: 100%;
+						text-align: center;
+						top: 50%;
+						font: 300 16px/20px @roboto-slab;
+						margin-top: -10px;
+						color: #FFF;
+						.transition(all 0.15s ease);
+					}
+					a{
+						.hovertip();
+					}
+					&:hover{
+						.box-shadow(0px 0px 0px 5px @darkblue);
+						img{
+							opacity: 0.3;
+						}
+						p{
+							opacity: 1;
+						}
 					}
 				}
 			}
 		}
-	}
-	&:nth-of-type(even){
-		.project_description .photo{
-			float: right;
+		&:nth-of-type(even){
+			.project_description .photo{
+				float: right;
+			}
 		}
-	}
-	&:nth-of-type(3n+1){
-		.project_description .photo .links{
-			background-color: @red;
+		&:nth-of-type(3n+1){
+			.project_description .photo .links{
+				background-color: @red;
+			}
+			.project_description .article h1{
+				color: @red;
+			}
 		}
-		.project_description .article h1{
-			color: @red;
+		&:nth-of-type(3n+2){
+			.project_description .photo .links{
+				background-color: @blue;
+			}
+			.project_description .article h1{
+				color: @blue;
+			}
 		}
-	}
-	&:nth-of-type(3n+2){
-		.project_description .photo .links{
-			background-color: @blue;
+		&:nth-of-type(3n+3){
+			.project_description .photo .links{
+				background-color: @brown;
+			}
+			.project_description .article h1{
+				color: @brown;
+			}
 		}
-		.project_description .article h1{
-			color: @blue;
+		.icon-whales{
+			background-color: @white;
+			color: @lightgrey;
+			position: absolute;
+			top: 1425px;
+			left: 50%;
+			font-size: 25px;
+			margin-left: -20px;
 		}
-	}
-	&:nth-of-type(3n+3){
-		.project_description .photo .links{
-			background-color: @brown;
+
+		&:last-of-type {
+			border-bottom: 0;
+			padding-bottom: 0;
 		}
-		.project_description .article h1{
-			color: @brown;
-		}
-	}
-	.icon-whales{
-		color: @lightgrey;
-		position: absolute;
-		top: 1425px;
-		left: 50%;
-		font-size: 25px;
-		margin-left: -20px;
 	}
 }
 
@@ -565,12 +589,13 @@ footer{
 			.column(4,12);
 			float: left;
 			padding-top: 28px;
+			text-align: center;
 			p{
 				color: @greyblue;
-				text-align: center;
 				letter-spacing: 1px;
 				font: 300 14px/20px @roboto;
 			}
+			img { margin-top: 40px; }
 		}
 	}
 }
