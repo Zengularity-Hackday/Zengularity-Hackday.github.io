@@ -1,0 +1,56 @@
+latest :
+  - name : project 1
+    hackday : s03e01
+    date : 2014-01-31
+    description : This a description of a serious project
+    repo : //github.com/superprojectdehackdaydeouf
+    urls :
+      - //skyblog.com/ninjadu53/blogAboutHackday
+      - //superproject.com/
+    hackers :
+      - twitter : bobylito
+        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
+      - twitter : dohzya,
+        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
+  - name : project 2
+    hackday : s03e02
+    date : 2014-02-28
+    description : This a description of a serious project 2
+    repo : //github.com/superprojectdehackdaydeouf
+    hackers :
+      - twitter : bobylito
+        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
+      - twitter : dohzya,
+        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
+      - twitter : bobylito
+        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
+      - twitter : dohzya,
+        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
+old :
+  - name : project 1
+    hackday : s03e01
+    date : 2014-01-31
+    description : This a description of a serious project
+    repo : //github.com/superprojectdehackdaydeouf
+    urls :
+      - "//skyblog.com/ninjadu53/blogAboutHackday"
+      - "//superproject.com/"
+    hackers :
+      - twitter : bobylito
+        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
+      - twitter : dohzya,
+        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
+  - name : project 2
+    hackday : s03e02
+    date : 2014-02-28
+    description : This a description of a serious project 2
+    repo : //github.com/superprojectdehackdaydeouf
+    hackers :
+      - twitter : bobylito
+        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
+      - twitter : dohzya,
+        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
+      - twitter : bobylito
+        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
+      - twitter : dohzya,
+        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
