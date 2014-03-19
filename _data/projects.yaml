@@ -11,7 +11,7 @@ latest :
     hackers :
       - twitter : bobylito
         photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya,
+      - twitter : dohzya
         photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
   - name : project 2
     image : "images/projet_01.jpg"
@@ -22,11 +22,11 @@ latest :
     hackers :
       - twitter : bobylito
         photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya,
+      - twitter : dohzya
         photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
       - twitter : bobylito
         photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya,
+      - twitter : dohzya
         photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
 old :
   - name : project 1
@@ -41,7 +41,7 @@ old :
     hackers :
       - twitter : bobylito
         photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya,
+      - twitter : dohzya
         photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
   - name : project 2
     image : "images/projet_01.jpg"
@@ -52,9 +52,9 @@ old :
     hackers :
       - twitter : bobylito
         photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya,
+      - twitter : dohzya
         photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
       - twitter : bobylito
         photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya,
+      - twitter : dohzya
         photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
