@@ -537,7 +537,6 @@ font: font-style* font-variant* font-weight font-size/line-height* font-family;
 /***************  INTRO ******************/
 .intro {
   background-color: #455c67;
-  height: 200px;
   padding: 40px 0px;
 }
 .intro p {
@@ -546,6 +545,7 @@ font: font-style* font-variant* font-weight font-size/line-height* font-family;
   text-align: center;
   letter-spacing: 2px;
   padding: 0px 90px;
+  margin: 0 0 10px 0;
 }
 /***************  TITLES ******************/
 h2 {
