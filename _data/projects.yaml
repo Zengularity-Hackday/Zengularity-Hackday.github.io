@@ -3,7 +3,7 @@ latest :
     image : "images/projet_01.jpg"
     hackday : s03e02
     date : 2014-02-28
-    description : >
+    description : |
       Wouldn't it be great if you can play games with your friends without having to
       buy a console plus additional controllers? With BYOG the console is a distant
       server and the controllers are your smartphones! Nothing to install, your
