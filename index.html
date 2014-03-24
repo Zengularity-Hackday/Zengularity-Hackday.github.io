@@ -99,7 +99,7 @@ title : Tous les projets
           <section class="article">
             <h1>{{ project.name }}</h1>
             <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
-            <p> {{project.description }} </p>
+            <p> {{project.description | markdownify }} </p>
           </section>
         </div>
         <div class="hackers">
