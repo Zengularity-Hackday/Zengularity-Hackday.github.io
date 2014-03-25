@@ -99,7 +99,7 @@ title : Tous les projets
           <section class="article">
             <h1>{{ project.name }}</h1>
             <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
-            <p> {{project.description }} </p>
+            {{project.description | markdownify }}
           </section>
         </div>
         <div class="hackers">
@@ -139,7 +139,7 @@ title : Tous les projets
           <section class="article">
             <h1>{{ project.name }}</h1>
             <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
-            <p> {{project.description }} </p>
+            {{project.description | markdownify }}
           </section>
         </div>
         <div class="hackers">
@@ -180,8 +180,8 @@ title : Tous les projets
                         <p>Birthplace of prismic.io and Play! frameworks, Zengularity is dedicated to delivering the most cutting edge concepts the web has to offer to its clients. Technology as a mean, best practices (when they make sense), simplicity first and creativity to solve complexity - these are the drivers of our projects. Learn more at <a href="//zengularity.com">zengularity.com</a>.</p>
 			</section>
 			<section class="logotype">
-				<p>hackday-team@zengularity.com</p>
-				<p>www.zengularity.com</p>
+				<p><a href="mailto://hackday-team@zengularity.com">hackday-team@zengularity.com</a></p>
+				<p><a href="http://zengularity.com/">zengularity.com</a></p>
 				<img height="50" src="images/logo-zengularity.svg" alt="">
 			</section>
 			<section class="legend">
