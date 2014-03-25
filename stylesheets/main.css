@@ -547,6 +547,11 @@ font: font-style* font-variant* font-weight font-size/line-height* font-family;
   padding: 0px 90px;
   margin: 0 0 10px 0;
 }
+.intro p a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
 /***************  TITLES ******************/
 h2 {
   margin: 75px 0px 70px 0px;
@@ -679,6 +684,11 @@ h3 span {
   color: #1f292e;
   font: 300 14px/20px 'Roboto Slab', serif;
   text-align: justify;
+}
+.list-project .project .project_description .article p a {
+  color: #1f292e;
+  text-decoration: none;
+  border-bottom: 1px dotted;
 }
 .list-project .project .hackers {
   text-align: center;
@@ -818,6 +828,11 @@ footer .content_footer .legend p {
   letter-spacing: 1px;
   padding: 0px 20px;
 }
+footer .content_footer .legend p a {
+  color: #455c67;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
 footer .content_footer .logotype {
   display: inline;
   width: 320px;
@@ -830,6 +845,10 @@ footer .content_footer .logotype p {
   color: #455c67;
   letter-spacing: 1px;
   font: 300 14px/20px 'Roboto', sans-serif;
+}
+footer .content_footer .logotype p a {
+  color: #455c67;
+  text-decoration: none;
 }
 footer .content_footer .logotype img {
   margin-top: 40px;
