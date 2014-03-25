@@ -109,11 +109,15 @@ title : Tous les projets
           <div class="profil">
             <ul>
               {% for hacker in project.hackers %}
-              <li>
-                <img src="{{hacker.photo}}" alt="{{hacker.twitter}}"/>
-                <p>@{{hacker.twitter}}</p>
-                <a href="//twitter.com/{{ hacker.twitter }}" target="_blank"></a>
-              </li>
+                {% for profile in site.data.hackers %}
+                  {% if hacker == profile.twitter %}
+                  <li>
+                    <img src="{{profile.photo}}" alt="{{profile.twitter}}"/>
+                    <p>@{{profile.twitter}}</p>
+                    <a href="//twitter.com/{{ profile.twitter }}" target="_blank"></a>
+                  </li>
+                  {% endif %}
+                {% endfor %}
               {% endfor %}
             </ul>
           </div>
@@ -149,11 +153,15 @@ title : Tous les projets
           <div class="profil">
             <ul>
               {% for hacker in project.hackers %}
-              <li>
-                <img src="{{hacker.photo}}" alt="{{hacker.twitter}}"/>
-                <p>@{{hacker.twitter}}</p>
-                <a href="//twitter.com/{{ hacker.twitter }}" target="_blank"></a>
-              </li>
+                {% for profile in site.data.hackers %}
+                  {% if hacker == profile.twitter %}
+                  <li>
+                    <img src="{{profile.photo}}" alt="{{profile.twitter}}"/>
+                    <p>@{{profile.twitter}}</p>
+                    <a href="//twitter.com/{{ profile.twitter }}" target="_blank"></a>
+                  </li>
+                  {% endif %}
+                {% endfor %}
               {% endfor %}
             </ul>
           </div>
