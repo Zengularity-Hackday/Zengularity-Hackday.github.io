@@ -14,62 +14,63 @@ latest :
     repo : //bitbucket.org/ama_zen/hackdays03e02-zgames
     urls :
     hackers :
-      - twitter: chradr
-        photo: //pbs.twimg.com/profile_images/1318492778/49298_1473271405_6655512_n.jpg
-      - twitter: bobylito
-        photo: //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter: dohzya
-        photo: //pbs.twimg.com/profile_images/713477427/avatar.jpg
-      - twitter: JeremDsgn
-        photo: //pbs.twimg.com/profile_images/3731138149/040d3167f7422c59a76e380178233e8e.jpeg
-      - twitter: maxcalmels
-        photo: //pbs.twimg.com/profile_images/378800000443261595/6d725200a230ff99b14d857e578b8380.png
-      - twitter: studiodev
-        photo: //pbs.twimg.com/profile_images/1695432648/20111215f.jpg
-      - twitter: vasimonnet
-        photo: //pbs.twimg.com/profile_images/3547678687/4ed42dbc15c66c8692594ab6073a7682.jpeg
-  - name : project 2
-    image : "images/projet_01.jpg"
-    hackday : s03e02
-    date : 2014-02-28
-    description : This a description of a serious project 2
-    repo : //github.com/superprojectdehackdaydeouf
-    hackers :
-      - twitter : bobylito
-        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya
-        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
-      - twitter : bobylito
-        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya
-        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
+      - chradr
+      - bobylito
+      - dohzya
+      - JeremDsgn
+      - maxcalmels
+      - studiodev
+      - vasimonnet
 old :
-  - name : project 1
-    image : "images/projet_01.jpg"
-    hackday : s03e01
-    date : 2014-01-31
-    description : This a description of a serious project
-    repo : //github.com/superprojectdehackdaydeouf
-    urls :
-      - "//skyblog.com/ninjadu53/blogAboutHackday"
-      - "//superproject.com/"
-    hackers :
-      - twitter : bobylito
-        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya
-        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
-  - name : project 2
-    image : "images/projet_01.jpg"
-    hackday : s03e02
-    date : 2014-02-28
-    description : This a description of a serious project 2
-    repo : //github.com/superprojectdehackdaydeouf
-    hackers :
-      - twitter : bobylito
-        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya
-        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
-      - twitter : bobylito
-        photo : //pbs.twimg.com/profile_images/1684781809/profilePicture.jpg
-      - twitter : dohzya
-        photo : //pbs.twimg.com/profile_images/713477427/avatar.jpg
+  - name: Zpeech
+    image: https://camo.githubusercontent.com/42a9dd85de1fd2f844af7408423c478192bae69d/687474703a2f2f6772652e6769746875622e696f2f7a70656563682f696d672f7a70656563682e706e67
+    repo: //github.com/gre/zpeech
+    hackday: s02e09
+    date: 2013-10-31
+    description: >
+     vowel formant analysis experiment with Web Audio API
+    urls:
+      - http://greweb.me/zpeech/
+    hackers:
+      - BLI
+      - niseh
+      - etaty
+      - greweb
+  - name: Beez
+    hackday: s02e07
+    date: 2013-08-30
+    description: >
+      100% web real-time audio experiment using smartphones as effect controller (WebRTC + Web Audio API).
+      An Hive is controlled by different Bees, eventhing connected in Peer-to-Peer (via WebRTC).
+    repo: //github.com/gre/beez
+    urls:
+      - http://greweb.me/2013/09/beez/
+      - http://beez.greweb.fr/
+      - https://www.youtube.com/watch?v=QwU6IMNLF0o
+    hackers:
+      - mrspeaker
+      - etaty
+      - NicuPrinFum
+      - drfars
+      - srenaultcontact
+      - greweb
+  - name: ZOUND Live
+    image: http://greweb.me/images/2013/07/nodeeditor.png
+    hackday: s02e06
+    date: 2013-07-26
+    description: >
+      web collaborative audio modular tracker using latest HTML5 technologies:
+      Web MIDI and Web Audio APIs.
+    repo: //github.com/gre/zound-live
+    urls:
+      - http://greweb.me/2013/07/zound-live/
+      - http://zoundlive.greweb.fr/
+      - https://www.youtube.com/watch?v=uyHWhCnE4L0
+    hackers:
+      - mrspeaker
+      - bobylito
+      - mandubian
+      - etaty
+      - skaalf
+      - Noxdzine
+      - Greweb
