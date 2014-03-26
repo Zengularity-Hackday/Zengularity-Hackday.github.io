@@ -32,10 +32,10 @@ old :
     urls:
       - http://greweb.me/zpeech/
     hackers:
-      - BLI
-      - niseh
+      - netwave
       - etaty
       - greweb
+      - benlillo
   - name: Beez
     hackday: s02e07
     date: 2013-08-30
@@ -73,4 +73,4 @@ old :
       - etaty
       - skaalf
       - Noxdzine
-      - Greweb
+      - greweb
