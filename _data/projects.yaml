@@ -31,7 +31,7 @@ old :
     hackday: s02e09
     date: 2013-10-31
     description: |
-      Zpeech is a vowel formant analysis experiment with Web Audio API.
+      **Zpeech is a vowel formant analysis experiment with Web Audio API.**
 
       The application records the microphone audio signal,
       analyzes it in real time (web audio API do the fourier transform),
@@ -49,7 +49,7 @@ old :
     hackday: s02e07
     date: 2013-08-30
     description: |
-      Beez is a 100% web real-time audio experiment using smartphones as synthesizer effect controllers.
+      **Beez is a 100% web real-time audio experiment using smartphones as synthesizer effect controllers.**
  
       Beez is focused on having the best latency performance: we used the bleeding-edge WebRTC technology,
       which allows you to link clients in Peer-to-Peer instead of a classical Client-Server architecture.
@@ -72,7 +72,7 @@ old :
     hackday: s02e06
     date: 2013-07-26
     description: |
-      ZOUND live is a web collaborative audio modular tracker.
+      **ZOUND live is a web collaborative audio modular tracker.**
 
       It uses the Web Audio API for the real time audio synthesis,
       and the new Web MIDI API to be able to use any MIDI music device as an input of the application
