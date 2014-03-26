@@ -88,7 +88,7 @@ title : Tous les projets
       <div class="project">
         <div class="project_description">
           <section class="photo">
-          <img src="{{ project.image }}" alt="projet_O1"/>
+          <img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
             <div class="links">
               {% for url in project.urls %}
                 <a href="{{url}}">http:{{url}}</a><br/>
@@ -132,7 +132,7 @@ title : Tous les projets
       <div class="project">
         <div class="project_description">
           <section class="photo">
-            <img src="images/projet_01.jpg" alt="projet_O1"/>
+						<img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
             <div class="links">
               {% for url in project.urls %}
                 <a href="{{url}}">http:{{url}}</a><br/>
