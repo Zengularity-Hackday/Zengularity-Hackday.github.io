@@ -1,6 +1,6 @@
 latest :
   - name : BYOG
-    image : "images/projet_01.jpg"
+    image : "images/s03e02_byog.png"
     hackday : s03e02
     date : 2014-02-28
     description : |
@@ -8,7 +8,7 @@ latest :
       buy a console plus additional controllers? With BYOG the console is a distant
       server and the controllers are your smartphones! Nothing to install, your
       gamepad is in your pocket, ready to play!
-      
+
       Display the game on a computer or TV and play with all your friends owning a
       smartphone.
     repo : //bitbucket.org/ama_zen/hackdays03e02-zgames
