@@ -19,12 +19,11 @@ $(function (){
 		size_littlePosition = $("#size_little").position();
 
 		if(newPositionMouseX < oldPositionMouseX){
-			
+
 			$('#size_big').css('left', (newPositionMouseX - wi/2)/20 +'px' );
 			$('#size_medium').css('left', (newPositionMouseX - wi/2)/15 +'px' );
 			$('#size_little').css('left', (newPositionMouseX - wi/2)/10 +'px' );
 			oldPositionMouseX = newPositionMouseX;
-			console.log(wi/2);
 		}
 
 		else if(newPositionMouseX > oldPositionMouseX){
@@ -32,7 +31,6 @@ $(function (){
 			$('#size_medium').css('left', (newPositionMouseX - wi/2)/15 +'px' );
 			$('#size_little').css('left', (newPositionMouseX - wi/2)/10 +'px' );
 			oldPositionMouseX = newPositionMouseX;
-			console.log(wi/2);
 		}
 		else{
 			oldPositionMouseX = newPositionMouseX;
