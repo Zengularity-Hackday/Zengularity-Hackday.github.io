@@ -30,8 +30,12 @@ old :
     repo: //github.com/gre/zpeech
     hackday: s02e09
     date: 2013-10-31
-    description: >
-      Vowel formant analysis experiment with Web Audio API
+    description: |
+      Zpeech is a vowel formant analysis experiment with Web Audio API.
+
+      The application records the microphone audio signal,
+      analyzes it in real time (web audio API do the fourier transform),
+      detects the formants and infer a phonetic vowel from some calibrated values.
     urls:
       - //greweb.me/zpeech/
     hackers:
@@ -45,8 +49,11 @@ old :
     hackday: s02e07
     date: 2013-08-30
     description: |
-      100% web real-time audio experiment using smartphones as effect controller (WebRTC + Web Audio API).
-      An Hive is controlled by different Bees, eventhing connected in Peer-to-Peer (via WebRTC).
+      Beez is a 100% web real-time audio experiment using smartphones as synthesizer effect controllers.
+ 
+      Beez is focused on having the best latency performance: we used the bleeding-edge WebRTC technology,
+      which allows you to link clients in Peer-to-Peer instead of a classical Client-Server architecture.
+      Web Audio API is also involved to provide real time synthesis of the sound.
     repo: //github.com/gre/beez
     urls:
       - //greweb.me/2013/09/beez/
@@ -65,8 +72,11 @@ old :
     hackday: s02e06
     date: 2013-07-26
     description: |
-      Web collaborative audio modular tracker using latest HTML5 technologies:
-      Web MIDI and Web Audio APIs.
+      ZOUND live is a web collaborative audio modular tracker.
+
+      It uses the Web Audio API for the real time audio synthesis,
+      and the new Web MIDI API to be able to use any MIDI music device as an input of the application
+      and to provide a fun and productive electronic music software experience.
     repo: //github.com/gre/zound-live
     urls:
       - //greweb.me/2013/07/zound-live/
