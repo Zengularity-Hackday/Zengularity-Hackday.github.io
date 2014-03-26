@@ -1,19 +1,20 @@
-latest :
-  - name : BYOG
-    image : "images/projet_01.jpg"
-    hackday : s03e02
-    date : 2014-02-28
-    description : |
+latest:
+
+  - name: BYOG
+    image: "images/s03e02_byog.png"
+    hackday: s03e02
+    date: 2014-02-28
+    description: |
       Wouldn't it be great if you can play games with your friends without having to
       buy a console plus additional controllers? With BYOG the console is a distant
       server and the controllers are your smartphones! Nothing to install, your
       gamepad is in your pocket, ready to play!
-      
+
       Display the game on a computer or TV and play with all your friends owning a
       smartphone.
-    repo : //bitbucket.org/ama_zen/hackdays03e02-zgames
-    urls :
-    hackers :
+    repo: //bitbucket.org/ama_zen/hackdays03e02-zgames
+    urls:
+    hackers:
       - chradr
       - bobylito
       - dohzya
@@ -21,32 +22,36 @@ latest :
       - maxcalmels
       - studiodev
       - vasimonnet
+
 old :
+
   - name: Zpeech
-    image: https://camo.githubusercontent.com/42a9dd85de1fd2f844af7408423c478192bae69d/687474703a2f2f6772652e6769746875622e696f2f7a70656563682f696d672f7a70656563682e706e67
+    image: images/s02e09_zpeech.png
     repo: //github.com/gre/zpeech
     hackday: s02e09
     date: 2013-10-31
     description: >
-     vowel formant analysis experiment with Web Audio API
+      Vowel formant analysis experiment with Web Audio API
     urls:
-      - http://greweb.me/zpeech/
+      - //greweb.me/zpeech/
     hackers:
       - netwave
       - etaty
       - greweb
       - benlillo
+
   - name: Beez
+    image: images/s02e07_beez.png
     hackday: s02e07
     date: 2013-08-30
-    description: >
+    description: |
       100% web real-time audio experiment using smartphones as effect controller (WebRTC + Web Audio API).
       An Hive is controlled by different Bees, eventhing connected in Peer-to-Peer (via WebRTC).
     repo: //github.com/gre/beez
     urls:
-      - http://greweb.me/2013/09/beez/
-      - http://beez.greweb.fr/
-      - https://www.youtube.com/watch?v=QwU6IMNLF0o
+      - //greweb.me/2013/09/beez/
+      - //beez.greweb.fr/
+      - //www.youtube.com/watch?v=QwU6IMNLF0o
     hackers:
       - mrspeaker
       - etaty
@@ -54,18 +59,19 @@ old :
       - drfars
       - srenaultcontact
       - greweb
+
   - name: ZOUND Live
-    image: http://greweb.me/images/2013/07/nodeeditor.png
+    image: images/s02e06_zound-live.png
     hackday: s02e06
     date: 2013-07-26
-    description: >
-      web collaborative audio modular tracker using latest HTML5 technologies:
+    description: |
+      Web collaborative audio modular tracker using latest HTML5 technologies:
       Web MIDI and Web Audio APIs.
     repo: //github.com/gre/zound-live
     urls:
-      - http://greweb.me/2013/07/zound-live/
-      - http://zoundlive.greweb.fr/
-      - https://www.youtube.com/watch?v=uyHWhCnE4L0
+      - //greweb.me/2013/07/zound-live/
+      - //zoundlive.greweb.fr/
+      - //www.youtube.com/watch?v=uyHWhCnE4L0
     hackers:
       - mrspeaker
       - bobylito
