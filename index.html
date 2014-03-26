@@ -24,54 +24,54 @@ title : Tous les projets
         </div>
       </hgroup>
     </div>
-      <div id="size_little">
-        <span class="icon-whales size_little"></span>
-        <span class="icon-whales whales_02 size_little"></span>
-        <span class="icon-twitter size_little"></span>
-        <span class="icon-twitter twitter_02 size_little"></span>
-        <span class="icon-star size_little"></span>
-        <span class="icon-star star_02 size_little"></span>
-        <span class="icon-arduino size_little"></span>
-        <span class="icon-arduino arduino_02 size_little"></span>
-        <span class="icon-croissant size_little"></span>
-        <span class="icon-nyancat size_little"></span>
-        <span class="icon-nyancat nyancat_02 size_little"></span>
-        <span class="icon-zengularity size_little"></span>
-        <span class="icon-zengularity zengularity_02 size_little"></span>
-        <span class="icon-croissant croissant_02 size_little"></span>
-        <span class="icon-croissant croissant_03 size_little"></span>
-        <span class="icon-tags"></span>
-        <span class="icon-tags tags_02"></span>
-        <span class="icon-tags tags_03"></span>
-      </div>
-      <div id="size_medium">
-        <span class="icon-snowflake size_medium"></span>
-        <span class="icon-snowflake snowflake_02 size_medium"></span>
-        <span class="icon-scala size_medium"></span>
-        <span class="icon-scala scala_02 size_medium"></span>
-        <span class="icon-beer size_medium"></span>
-        <span class="icon-beer beer_02 size_medium"></span>
-        <span class="icon-cloud size_medium"></span>
-        <span class="icon-cloud cloud_02 size_medium"></span>
-        <span class="icon-fastfood size_medium"></span>
-        <span class="icon-hand size_medium"></span>
-        <span class="icon-hand hand_02 size_medium"></span>
-        <span class="icon-jewels size_medium"></span>
-        <span class="icon-jewels jewels_02 size_medium"></span>
-      </div>
-      <div id="size_big">
-        <span class="icon-r2d2 size_big"></span>
-        <span class="icon-r2d2 r2d2_02 size_big"></span>
-        <span class="icon-play size_big"></span>
-        <span class="icon-play play_02 size_big"></span>
-        <span class="icon-cock size_big"></span>
-        <span class="icon-cock cock_02 size_big"></span>
-        <span class="icon-lego size_big"></span>
-        <span class="icon-lego lego_02 size_big"></span>
-        <span class="icon-localisation size_big"></span>
-        <span class="icon-anchor size_big"></span>
-        <span class="icon-anchor anchor_02 size_big"></span>
-      </div>
+    <div id="size_little">
+      <span class="icon-whales size_little"></span>
+      <span class="icon-whales whales_02 size_little"></span>
+      <span class="icon-twitter size_little"></span>
+      <span class="icon-twitter twitter_02 size_little"></span>
+      <span class="icon-star size_little"></span>
+      <span class="icon-star star_02 size_little"></span>
+      <span class="icon-arduino size_little"></span>
+      <span class="icon-arduino arduino_02 size_little"></span>
+      <span class="icon-croissant size_little"></span>
+      <span class="icon-nyancat size_little"></span>
+      <span class="icon-nyancat nyancat_02 size_little"></span>
+      <span class="icon-zengularity size_little"></span>
+      <span class="icon-zengularity zengularity_02 size_little"></span>
+      <span class="icon-croissant croissant_02 size_little"></span>
+      <span class="icon-croissant croissant_03 size_little"></span>
+      <span class="icon-tags"></span>
+      <span class="icon-tags tags_02"></span>
+      <span class="icon-tags tags_03"></span>
+    </div>
+    <div id="size_medium">
+      <span class="icon-snowflake size_medium"></span>
+      <span class="icon-snowflake snowflake_02 size_medium"></span>
+      <span class="icon-scala size_medium"></span>
+      <span class="icon-scala scala_02 size_medium"></span>
+      <span class="icon-beer size_medium"></span>
+      <span class="icon-beer beer_02 size_medium"></span>
+      <span class="icon-cloud size_medium"></span>
+      <span class="icon-cloud cloud_02 size_medium"></span>
+      <span class="icon-fastfood size_medium"></span>
+      <span class="icon-hand size_medium"></span>
+      <span class="icon-hand hand_02 size_medium"></span>
+      <span class="icon-jewels size_medium"></span>
+      <span class="icon-jewels jewels_02 size_medium"></span>
+    </div>
+    <div id="size_big">
+      <span class="icon-r2d2 size_big"></span>
+      <span class="icon-r2d2 r2d2_02 size_big"></span>
+      <span class="icon-play size_big"></span>
+      <span class="icon-play play_02 size_big"></span>
+      <span class="icon-cock size_big"></span>
+      <span class="icon-cock cock_02 size_big"></span>
+      <span class="icon-lego size_big"></span>
+      <span class="icon-lego lego_02 size_big"></span>
+      <span class="icon-localisation size_big"></span>
+      <span class="icon-anchor size_big"></span>
+      <span class="icon-anchor anchor_02 size_big"></span>
+    </div>
   </div>
   <div class="intro">
     <div class="wrap">
@@ -80,126 +80,124 @@ title : Tous les projets
       <p>Please bear in mind those projects are prototypes and the products of a single day.</p>
     </div>
   </div>
-
-<div class="wrap">
-  <h2 class="first_title"><span class="icon-cross"></span>last hackday<span class="icon-cross"></span></h2>
-  <section class="list-project">
-    {% for project in site.data.projects.latest %}
-      <div class="project">
-        <div class="project_description">
-          <section class="photo">
-          <img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
-            <div class="links">
-              {% for url in project.urls %}
-                <a href="{{url}}">http:{{url}}</a><br/>
-              {% endfor %}
-              <a href="{{project.repo}}">http:{{project.repo}}</a>
-            </div>
-          </section>
-          <section class="article">
-            <h1>{{ project.name }}</h1>
-            <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
-            {{project.description | markdownify }}
-          </section>
-        </div>
-        <div class="hackers">
-          <h3>
-            <span>Les Hackers</span>
-          </h3>
-          <div class="profil">
-            <ul>
-              {% for hacker in project.hackers %}
-                {% for profile in site.data.hackers %}
-                  {% if hacker == profile.twitter %}
-                  <li>
-                    <img src="{{profile.photo}}" alt="{{profile.twitter}}"/>
-                    <p>@{{profile.twitter}}</p>
-                    <a href="//twitter.com/{{ profile.twitter }}" target="_blank"></a>
-                  </li>
-                  {% endif %}
-                {% endfor %}
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
-
-  <h2><span class="icon-cross"></span>older projects<span class="icon-cross"></span></h2>
-  <section class="list-project">
-    {% for project in site.data.projects.old %}
-      <div class="project">
-        <div class="project_description">
-          <section class="photo">
+  <div class="wrap">
+    <h2 class="first_title"><span class="icon-cross"></span>last hackday<span class="icon-cross"></span></h2>
+    <section class="list-project">
+      {% for project in site.data.projects.latest %}
+        <div class="project">
+          <div class="project_description">
+            <section class="photo">
             <img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
-            <div class="links">
-              {% for url in project.urls %}
-                <a href="{{url}}">http:{{url}}</a><br/>
-              {% endfor %}
-              <a href="{{project.repo}}">http:{{project.repo}}</a>
-            </div>
-          </section>
-          <section class="article">
-            <h1>{{ project.name }}</h1>
-            <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
-            {{project.description | markdownify }}
-          </section>
-        </div>
-        <div class="hackers">
-          <h3>
-            <span>Les Hackers</span>
-          </h3>
-          <div class="profil">
-            <ul>
-              {% for hacker in project.hackers %}
-                {% for profile in site.data.hackers %}
-                  {% if hacker == profile.twitter %}
-                  <li>
-                    <img src="{{profile.photo}}" alt="{{profile.twitter}}"/>
-                    <p>@{{profile.twitter}}</p>
-                    <a href="//twitter.com/{{ profile.twitter }}" target="_blank"></a>
-                  </li>
-                  {% endif %}
+              <div class="links">
+                {% for url in project.urls %}
+                  <a href="{{url}}">http:{{url}}</a><br/>
                 {% endfor %}
-              {% endfor %}
-            </ul>
+                <a href="{{project.repo}}">http:{{project.repo}}</a>
+              </div>
+            </section>
+            <section class="article">
+              <h1>{{ project.name }}</h1>
+              <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
+              {{project.description | markdownify }}
+            </section>
+          </div>
+          <div class="hackers">
+            <h3>
+              <span>Les Hackers</span>
+            </h3>
+            <div class="profil">
+              <ul>
+                {% for hacker in project.hackers %}
+                  {% for profile in site.data.hackers %}
+                    {% if hacker == profile.twitter %}
+                    <li>
+                      <img src="{{profile.photo}}" alt="{{profile.twitter}}"/>
+                      <p>@{{profile.twitter}}</p>
+                      <a href="//twitter.com/{{ profile.twitter }}" target="_blank"></a>
+                    </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    {% endfor %}
-  </section>
+      {% endfor %}
+    </section>
 
-</div>
-<!--
-<div class="goodies">
-  <div class="wrap">
-    <h3>
-      <span>Les goodies</span>
-    </h3>
+    <h2><span class="icon-cross"></span>older projects<span class="icon-cross"></span></h2>
+    <section class="list-project">
+      {% for project in site.data.projects.old %}
+        <div class="project">
+          <div class="project_description">
+            <section class="photo">
+              <img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
+              <div class="links">
+                {% for url in project.urls %}
+                  <a href="{{url}}">http:{{url}}</a><br/>
+                {% endfor %}
+                <a href="{{project.repo}}">http:{{project.repo}}</a>
+              </div>
+            </section>
+            <section class="article">
+              <h1>{{ project.name }}</h1>
+              <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
+              {{project.description | markdownify }}
+            </section>
+          </div>
+          <div class="hackers">
+            <h3>
+              <span>Les Hackers</span>
+            </h3>
+            <div class="profil">
+              <ul>
+                {% for hacker in project.hackers %}
+                  {% for profile in site.data.hackers %}
+                    {% if hacker == profile.twitter %}
+                    <li>
+                      <img src="{{profile.photo}}" alt="{{profile.twitter}}"/>
+                      <p>@{{profile.twitter}}</p>
+                      <a href="//twitter.com/{{ profile.twitter }}" target="_blank"></a>
+                    </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
   </div>
-</div>
-</body>
--->
-<footer>
-  <div class="wrap">
-    <div class="content_footer">
-      <section class="legend">
-        <p>Birthplace of prismic.io and Play! frameworks, Zengularity is dedicated to delivering the most cutting edge concepts the web has to offer to its clients. Technology as a mean, best practices (when they make sense), simplicity first and creativity to solve complexity - these are the drivers of our projects. Learn more at <a href="//zengularity.com">zengularity.com</a>.</p>
-      </section>
-      <section class="logotype">
-        <p><a href="mailto://hackday-team@zengularity.com">hackday-team@zengularity.com</a></p>
-        <p><a href="http://zengularity.com/">zengularity.com</a></p>
-        <img height="50" src="images/logo-zengularity.svg" alt="Zengularity logo">
-      </section>
-      <section class="legend">
-      <p>
-        The first Hackday took place rue Taitbout for the launch of Play! 2.0 - since then, we have been celebrating the
-        Web every month. Anyone can pitch an idea then hire a team. The teams hack on the last friday of the
-        month to create (I would humbly say “awesome”) proofs of concept of the pitched ideas.
-      </p>
-      </section>
+  <!--
+  <div class="goodies">
+    <div class="wrap">
+      <h3>
+        <span>Les goodies</span>
+      </h3>
     </div>
   </div>
-</footer>
+  -->
+  <footer>
+    <div class="wrap">
+      <div class="content_footer">
+        <section class="legend">
+          <p>Birthplace of prismic.io and Play! frameworks, Zengularity is dedicated to delivering the most cutting edge concepts the web has to offer to its clients. Technology as a mean, best practices (when they make sense), simplicity first and creativity to solve complexity - these are the drivers of our projects. Learn more at <a href="//zengularity.com">zengularity.com</a>.</p>
+        </section>
+        <section class="logotype">
+          <p><a href="mailto://hackday-team@zengularity.com">hackday-team@zengularity.com</a></p>
+          <p><a href="http://zengularity.com/">zengularity.com</a></p>
+          <img height="50" src="images/logo-zengularity.svg" alt="Zengularity logo">
+        </section>
+        <section class="legend">
+        <p>
+          The first Hackday took place rue Taitbout for the launch of Play! 2.0 - since then, we have been celebrating the
+          Web every month. Anyone can pitch an idea then hire a team. The teams hack on the last friday of the
+          month to create (I would humbly say “awesome”) proofs of concept of the pitched ideas.
+        </p>
+        </section>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
