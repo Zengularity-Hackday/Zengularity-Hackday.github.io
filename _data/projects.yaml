@@ -23,6 +23,8 @@ latest:
       - vveloce
       - jbr
 
+old :
+
   - name: BYOG
     image: "images/s03e02_byog.png"
     hackday: s03e02
@@ -45,8 +47,6 @@ latest:
       - maxcalmels
       - studiodev
       - vasimonnet
-
-old :
 
   - name: Zpeech
     image: images/s02e09_zpeech.png
