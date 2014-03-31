@@ -1,5 +1,28 @@
 latest:
 
+  - name: Mute Zat Shit
+    image: images/s03e03_mzs.png
+    hackday: s03e03
+    date: 2014-03-28
+    description: |
+      **Advertisement is a plague, here comes the doctor**
+
+      This Web Audio API experiment aims at removing advertisement from web radios.
+      Through mathematical study of the sound,
+      advertisement patterns are recognized and replaced with arbitrary content.
+      The project includes a unique radio player UI, client-side sound processing,
+      and server-side web radio metadata parsing.
+    repo: //github.com/ornicar/muteZatShit
+    urls:
+    hackers:
+      - ornicar
+      - altamborrino
+      - Atezsouai
+      - jdelh
+      - mandubian
+      - vveloce
+      - jbr
+
   - name: BYOG
     image: "images/s03e02_byog.png"
     hackday: s03e02
@@ -90,41 +113,3 @@ old :
       - skaalf
       - Noxdzine
       - greweb
-
-  - name: Mute Zat Shit
-    image: images/s03e03_mzs.png
-    hackday: s03e03
-    date: 2014-03-28
-    description: |
-      **Advertisement is a plague, here comes the doctor**
-
-      This Web Audio API experiment aims at removing advertisement from web radios.
-      Through mathematical study of the sound,
-      advertisement patterns are recognized and replaced with arbitrary content.
-      The project includes a unique radio player UI, client-side sound processing,
-      and server-side web radio metadata parsing.
-    repo: //github.com/ornicar/muteZatShit
-    urls:
-      - //github.com/ornicar/muteZatShit
-    hackers:
-      - id : ornicar
-        twitter : ornicar
-        photo : //pbs.twimg.com/profile_images/431045660406587393/QgN68Kht.jpeg
-      - id : altamborrino
-        twitter : altamborrino
-        photo : //pbs.twimg.com/profile_images/2478200951/jnovnhz34swe3o35xy2r.jpeg
-      - id : Atezsouai
-        twitter : Atezsouai
-        photo : //pbs.twimg.com/profile_images/378800000788862449/40a057b5b1d4df4dc80cbb5b08384807.jpeg
-      - id : jdelh
-        twitter : jdelh
-        photo : //pbs.twimg.com/profile_images/74181083/j2.png
-      - id : mandubian
-        twitter : mandubian
-        photo :
-      - id : veloce
-        twitter : vveloce
-        photo :
-      - id : jbr
-        twitter :
-        photo :
