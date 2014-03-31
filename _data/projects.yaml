@@ -73,7 +73,7 @@ old :
     date: 2013-08-30
     description: |
       **Beez is a 100% web real-time audio experiment using smartphones as synthesizer effect controllers.**
- 
+
       Beez is focused on having the best latency performance: we used the bleeding-edge WebRTC technology,
       which allows you to link clients in Peer-to-Peer instead of a classical Client-Server architecture.
       Web Audio API is also involved to provide real time synthesis of the sound.
