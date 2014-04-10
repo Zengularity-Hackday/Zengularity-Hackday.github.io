@@ -84,10 +84,10 @@ title : Tous les projets
     <h2 class="first_title"><span class="icon-cross"></span>Last hackday<span class="icon-cross"></span></h2>
     <section class="list-project">
       {% for project in site.data.projects.latest %}
-        <div class="project">
+      <div class="project" id="{{project.hackday}}-{{project.name}}">
           <div class="project_description">
             <section class="photo">
-            <img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
+              <img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
               <div class="links">
                 {% for url in project.urls %}
                   <a href="{{url}}">http:{{url}}</a><br/>
@@ -96,7 +96,7 @@ title : Tous les projets
               </div>
             </section>
             <section class="article">
-              <h1>{{ project.name }}</h1>
+              <h1>{{ project.name }}<a class="anchor icon-anchor" href="#{{project.hackday}}-{{project.name}}"></a></h1>
               <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
               {{project.description | markdownify }}
             </section>
@@ -128,7 +128,7 @@ title : Tous les projets
     <h2><span class="icon-cross"></span>Previous episodes<span class="icon-cross"></span></h2>
     <section class="list-project">
       {% for project in site.data.projects.old %}
-        <div class="project">
+        <div class="project" id="{{project.hackday}}-{{project.name}}">
           <div class="project_description">
             <section class="photo">
               <img src="{{ project.image }}" alt="Picture of {{ project.name }}"/>
@@ -140,7 +140,7 @@ title : Tous les projets
               </div>
             </section>
             <section class="article">
-              <h1>{{ project.name }}</h1>
+              <h1>{{ project.name }}<a class="anchor icon-anchor" href="#{{project.hackday}}-{{project.name}}"></a></h1>
               <h2 class="date"><span>Hackday {{ project.hackday }} • {{ project.date }}</span></h2>
               {{project.description | markdownify }}
             </section>
