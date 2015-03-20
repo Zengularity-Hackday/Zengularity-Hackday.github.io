@@ -1,20 +1,23 @@
 latest:
 
+  - name: lambdaeditor
+    image: images/s04e02_lambdaeditor.png
+    hackday: so4e02
+    date: 2014-02-27
+    description: |
+      You want to make a WYSIWYG editor in the browser ?
+      You may have already used content-editable and encountered many issues with it.
+      lambdaeditor is a web text editor for complex interactions.
+      Written in ELM, it will bring expresivity, typesafety and performance
+    repo: //github.com/erwan/lambdaeditor
+    urls:
+      - //caffeinelab.net/lambdaeditor/
+    hackers:
+      - erwan
+      - julienrf
+      - etaque
 
 old :
-
-  - name: twitbot
-    image: images/s04e01_twitbot.png
-    hackday: so4e01
-    date: 2014-11-28
-    description: |
-      Easily create a twitter bot that can respond to user tweets in the user's language. This bot was developped in clojure
-    repo: //github.com/gre/twitbot
-    urls:
-    hackers:
-      - srenaultcontact
-      - greweb
-      - erwan
 
   - name: Beatmovie
     image: images/s04e01_beatmovie.png
@@ -30,6 +33,19 @@ old :
       - BenjamMartin
       - sebcreme
       - wadjetz
+
+  - name: twitbot
+    image: images/s04e01_twitbot.png
+    hackday: so4e01
+    date: 2014-11-28
+    description: |
+      Easily create a twitter bot that can respond to user tweets in the user's language. This bot was developped in clojure
+    repo: //github.com/gre/twitbot
+    urls:
+    hackers:
+      - srenaultcontact
+      - greweb
+      - erwan
 
   - name: LinkuKuriinaa (Link cleaner)
     image: images/s03e10_linkukurinaa.png
