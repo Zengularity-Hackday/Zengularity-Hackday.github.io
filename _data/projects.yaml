@@ -1,29 +1,35 @@
 latest:
 
-  - name: Mute Zat Shit
-    image: images/s03e03_mzs.png
-    hackday: s03e03
-    date: 2014-03-28
-    description: |
-      **Advertisement is a plague, here comes the doctor**
-
-      This Web Audio API experiment aims at removing advertisement from web radios.
-      Through mathematical study of the sound,
-      advertisement patterns are recognized and replaced with arbitrary content.
-      The project includes a unique radio player UI, client-side sound processing,
-      and server-side web radio metadata parsing.
-    repo: //github.com/ornicar/muteZatShit
-    urls:
-    hackers:
-      - ornicar
-      - altamborrino
-      - Atezsouai
-      - jdelh
-      - mandubian
-      - vveloce
-      - JeremDsgn
 
 old :
+
+  - name: twitbot
+    image: images/s04e01_twitbot.png
+    hackday: so4e01
+    date: 2014-11-28
+    description: |
+      Easily create a twitter bot that can respond to user tweets in the user's language. This bot was developped in clojure
+    repo: //github.com/gre/twitbot
+    urls:
+    hackers:
+      - srenaultcontact
+      - greweb
+      - erwan
+
+  - name: Beatmovie
+    image: images/s04e01_beatmovie.png
+    hackday: so4e01
+    date: 2014-02-02
+    description: |
+      Beatmovie is a mobile application that connects to your smartwatch to measure your heart activity during a movie.
+      Your bpm are recorded and can help you rate the movie
+    repo:
+    urls:
+      - //www.youtube.com/watch?v=MRdegBgcR7o
+    hackers:
+      - BenjamMartin
+      - sebcreme
+      - wadjetz
 
   - name: LinkuKuriinaa (Link cleaner)
     image: images/s03e10_linkukurinaa.png
@@ -59,6 +65,29 @@ old :
       - srenaultcontact
       - Atezsouai
       - NicolaeNMV
+
+  - name: Mute Zat Shit
+    image: images/s03e03_mzs.png
+    hackday: s03e03
+    date: 2014-03-28
+    description: |
+      **Advertisement is a plague, here comes the doctor**
+
+      This Web Audio API experiment aims at removing advertisement from web radios.
+      Through mathematical study of the sound,
+      advertisement patterns are recognized and replaced with arbitrary content.
+      The project includes a unique radio player UI, client-side sound processing,
+      and server-side web radio metadata parsing.
+    repo: //github.com/ornicar/muteZatShit
+    urls:
+    hackers:
+      - ornicar
+      - altamborrino
+      - Atezsouai
+      - jdelh
+      - mandubian
+      - vveloce
+      - JeremDsgn
 
   - name: BYOG
     image: "images/s03e02_byog.png"
