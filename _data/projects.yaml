@@ -25,6 +25,25 @@ latest:
 
 old :
 
+  - name: LinkuKuriinaa (Link cleaner)
+    image: images/s03e10_linkukurinaa.png
+    hackday: s03e10
+    date: 2014-11-28
+    description: |
+      **Or how to make Google spy on us a little less**
+
+      This experiment will remove tracking links from google search and will allow
+      you to access your results directly without redirection
+
+      This project is available as a bookmarlet, a chrome or a firefox extension
+    repo: //github.com/bobylito/linkukuriinaa
+    urls:
+      - //bobylito.me/linkukuriinaa/
+    hackers:
+      - bobylito
+      - dohzya
+      - OtraMaga
+
   - name: BYOG
     image: "images/s03e02_byog.png"
     hackday: s03e02
