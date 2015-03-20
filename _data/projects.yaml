@@ -44,6 +44,22 @@ old :
       - dohzya
       - OtraMaga
 
+  - name: Radyo
+    image: images/s03e10_radyo.png
+    hackday: s03e10
+    date: 2014-11-28
+    description: |
+      Send a Yo to your favourite radio to automatically add the now playing song to your spotify playlist.
+      You'll also receive a yo back with the song information
+    repo: //github.com/StarTrack/server
+    urls:
+      - //radyo.herokuapp.com
+    hackers:
+      - l4mnath
+      - srenaultcontact
+      - Atezsouai
+      - NicolaeNMV
+
   - name: BYOG
     image: "images/s03e02_byog.png"
     hackday: s03e02
