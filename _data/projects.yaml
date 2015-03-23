@@ -1,5 +1,87 @@
 latest:
 
+  - name: lambdaeditor
+    image: images/s04e02_lambdaeditor.png
+    hackday: so4e02
+    date: 2014-02-27
+    description: |
+      You want to make a WYSIWYG editor in the browser ?
+      You may have already used content-editable and encountered many issues with it.
+      lambdaeditor is a web text editor for complex interactions.
+      Written in ELM, it will bring expresivity, typesafety and performance
+    repo: //github.com/erwan/lambdaeditor
+    urls:
+      - //caffeinelab.net/lambdaeditor/
+    hackers:
+      - erwan
+      - julienrf
+      - etaque
+
+old :
+
+  - name: Beatmovie
+    image: images/s04e01_beatmovie.png
+    hackday: so4e01
+    date: 2014-02-02
+    description: |
+      Beatmovie is a mobile application that connects to your smartwatch to measure your heart activity during a movie.
+      Your bpm are recorded and can help you rate the movie
+    repo:
+    urls:
+      - //www.youtube.com/watch?v=MRdegBgcR7o
+    hackers:
+      - BenjamMartin
+      - sebcreme
+      - wadjetz
+
+  - name: twitbot
+    image: images/s04e01_twitbot.png
+    hackday: so4e01
+    date: 2014-11-28
+    description: |
+      Easily create a twitter bot that can respond to user tweets in the user's language. This bot was developped in clojure
+    repo: //github.com/gre/twitbot
+    urls:
+    hackers:
+      - srenaultcontact
+      - greweb
+      - erwan
+
+  - name: LinkuKuriinaa (Link cleaner)
+    image: images/s03e10_linkukurinaa.png
+    hackday: s03e10
+    date: 2014-11-28
+    description: |
+      **Or how to make Google spy on us a little less**
+
+      This experiment will remove tracking links from google search and will allow
+      you to access your results directly without redirection
+
+      This project is available as a bookmarlet, a chrome or a firefox extension
+    repo: //github.com/bobylito/linkukuriinaa
+    urls:
+      - //bobylito.me/linkukuriinaa/
+    hackers:
+      - bobylito
+      - dohzya
+      - OtraMaga
+
+  - name: Radyo
+    image: images/s03e10_radyo.png
+    hackday: s03e10
+    date: 2014-11-28
+    description: |
+      Send a Yo to your favourite radio to automatically add the now playing song to your spotify playlist.
+      You'll also receive a yo back with the song information
+    repo: //github.com/StarTrack/server
+    urls:
+      - //radyo.herokuapp.com
+    hackers:
+      - l4mnath
+      - srenaultcontact
+      - Atezsouai
+      - NicolaeNMV
+
   - name: Mute Zat Shit
     image: images/s03e03_mzs.png
     hackday: s03e03
@@ -22,8 +104,6 @@ latest:
       - mandubian
       - vveloce
       - JeremDsgn
-
-old :
 
   - name: BYOG
     image: "images/s03e02_byog.png"
