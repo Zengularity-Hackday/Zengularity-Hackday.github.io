@@ -226,7 +226,7 @@ body:after {
   width: 1020px;
   margin: 0 auto;
 }
-/* 
+/*
 font: font-style* font-variant* font-weight font-size/line-height* font-family;
 */
 /***************  STUCTURE ******************/
@@ -666,6 +666,17 @@ h3 span {
   color: #fc7061;
   margin-bottom: 32px;
   font: 200 45px/50px 'Roboto', sans-serif;
+}
+.list-project .project .project_description .article h1 .anchor {
+  font-weight: bold;
+  font-size: 0.5em;
+  text-decoration: inherit;
+  padding-left: 0.5em;
+  color: wheat;
+  transition: color;
+}
+.list-project .project .project_description .article h1 .anchor :hover {
+  color: red;
 }
 .list-project .project .project_description .article h2.date {
   margin: 0px 0px 25px 0px;
